@@ -414,6 +414,10 @@ Prefab:
       propertyPath: m_StationaryTurnSpeed
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 19597056, guid: 54eb5844754051b40a918a84c33b7c1a, type: 2}
+      propertyPath: m_StoppingDistance
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54eb5844754051b40a918a84c33b7c1a, type: 2}
   m_IsPrefabAsset: 0
@@ -443,9 +447,9 @@ MonoBehaviour:
   waypoint2: {fileID: 185603464}
   aiCharacterControl: {fileID: 300050150}
   tempoEsperar: 2
-  campoVisao: 5
+  campoVisao: 15
   tempoPersistencia: 6
-  seguirEnquantoProcura: 1
+  seguirEnquantoProcura: 0
   distanciaMinimaWaypoint: 2.5
 --- !u!1 &378680144
 GameObject:

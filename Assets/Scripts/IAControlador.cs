@@ -128,7 +128,7 @@ public class IAControlador : MonoBehaviour
                 {
                     alvo = Jogador.instancia.transform;
                 }
-                else
+                else if (alvo != null)
                 {
                     posicaoDestino = alvo.position;
                     alvo = null;
